@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: "Josefin Sans", sans-serif;
+    height: 100%;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+}
+
+.ageForm {
+    width: 500px;
+    border: 2px solid #ccc;
+    padding: 50px;
+    background: #fff;
+    border-radius: 15px;
+    border-color: black;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+label {
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button {
+    float: right;
+    background: #808080;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 5%;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+.page {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input::placeholder {
+    padding-left: 15px;
+}
+
+.container,
+.input-field {
+    position: relative;
+}
+
+form i {
+    position: absolute;
+    cursor: default;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    pointer-events: none;
+    color: #bfbfbf;
+}
+
+.locationStyle {
+    padding-left: 30px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #ccc;
+}
+
+.category-section {
+    line-height: 1.5;
+    position: relative;
+    color: #808080;
+}
+
+.category-section:hover {
+    color: #1690a7;
+}
+
+.header-top {
+    margin-bottom: 30px;
+    cursor: default;
+    user-select: none;
+}
+
+.groupSelect {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.contactNotes {
+    width: 95%;
+    margin-bottom: 15px;
+}
+
+.phoneIcon {
+    position: relative;
+}
+
+.phoneIcon i {
+    position: absolute;
+    top: 44%;
+}
+
+.defaultSelect {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-left: 15px;
+}
